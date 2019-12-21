@@ -168,6 +168,28 @@ img {
   width: 100%;
   margin: 0 auto;
 }
+.header {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 2px dashed darkgrey;
+  align-items: center;
+  padding: 3vh 5vw 2vh 5vw;
+}
+.header .title {
+  display: inline-block;
+  width: 40%;
+}
+.header .top-nav {
+  display: flex;
+  justify-content: space-around;
+  width: 49%;
+}
+.header .top-nav .nav-item {
+  text-decoration: none;
+  font-size: 1.6rem;
+  color: black;
+  font-family: "Roboto", sans-serif;
+}
 .footer {
   width: 100%;
   border-top: 2px dashed silver;
