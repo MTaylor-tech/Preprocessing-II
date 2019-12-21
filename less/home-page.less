@@ -1,13 +1,22 @@
 .home {
 
+  .intro {
+    border-bottom: 2px dashed @navigation-border;
+    padding-bottom: 1vh;
+
+    .intro-title {
+      margin-top: 2vh;
+    }
+  } // .intro
+
   .content-section {
     margin: 30px 0;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
 
-   
-    
+
+
     .text-content {
       width: 48%;
       padding-right: 1%;
@@ -21,7 +30,7 @@
         border-radius: 10px;
       }
     }
-  }
+  } // .content-section
 
   .inverse-content {
     padding-bottom: 30px;
@@ -36,7 +45,7 @@
       padding-right: 1%;
       padding-left: 0;
     }
-  }
+  } // .inverse-content
 
   .content-destination {
     width: 75%;
@@ -57,5 +66,5 @@
       width: 30%;
       margin-bottom: 30px;
     }
-  }
+  } // .content-pick
 }// home
