@@ -110,6 +110,10 @@
       .btn {
         .button(@main-bg, @button-bg, 83%);
 
+        &:hover {
+            .buttonHover();
+        }
+
         @media @mobile {
           .button(@main-bg, @button-bg, 100%);
         }
